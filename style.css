@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+  --cor-azul:#0A3871;
+  --cor-branca:#D8DFE8; 
+
+  --fonte-principal:'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #E5E5E5;
+  width: auto;
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+.principal {
+  margin: 2.5rem;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.area-texto {
+  margin-left: 1rem;
+  margin-bottom: 15rem;
+  margin-top: -5rem;
+}
+
+.texto {
+  margin: 3rem;
+}
+
+.texto textarea {
+  font-family: var(--fonte-principal);
+  margin: 4rem;
+  font-size: 2rem;
+  color:var(--cor-azul);
+  background: #E5E5E5;
+  border: none;
+}
+
+.obs {
+  margin-top: 6rem;
+  font-size: 0.8rem;
+  color: #495057;
+}
+
+.obs img, p {
+  display: inline-block;
+  margin-top: 10rem;
+}
+
+.botoes {
+  margin-top: 1rem;
+}
+
+#botao-cripto {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  gap: 0.5rem;
+
+  background: var(--cor-azul);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+}
+
+#botao-cripto:hover {
+  background: var(--cor-branca);
+  color: black;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+#botao-descripto {
+background: var(--cor-branca);
+padding: 1.5rem 3rem;
+gap: 0.5rem;
+
+border: 1px solid var(--cor-azul);
+color: var(--cor-azul);
+border-radius: 1rem;
+box-sizing: border-box;
+}
+
+#botao-descripto:hover {
+  background: var(--cor-azul);
+  color: white;
+  cursor: pointer;
+  }
+
+
+.barra-lateral {
+  width: 20%;
+  height: 50rem;
+  background: white;
+  border-radius: 5rem;
+  padding: 2rem;
+  margin-top: -10rem;
+  box-shadow: 10px 5px 5px rgb(187, 184, 184);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.info {
+  box-sizing: border-box;
+}
+
+.bloco h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343A40;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#texto-trocar {
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: center;
+  
+  text-overflow: clip;
+}
+
+#adicionar-botao {
+  display: flex;
+  justify-content:center;
+  align-items: baseline;
+}
+
+#botao-copiar {
+  padding: 1.5rem 3rem;
+  margin-top: 2rem;
+
+  background: var(--cor-azul);
+  border: 1px solid var(--cor-azul);
+  color: white;
+  border-radius: 1rem;
+}
+
+#botao-copiar:hover {
+  background: var(--cor-branca);
+  color: black;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+}
+
+
+footer a {
+  border: 1rem;
+  text-decoration: none;
+  color:#343A40;
+}
